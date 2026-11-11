@@ -348,6 +348,7 @@ body{
     }
     .name-logo {
         width: 46px;
+        display: none;
     }
     .nav-links {
         order: 3;
@@ -362,6 +363,7 @@ body{
     }
     .nav-bar button {
         padding: 5px 14px;
+        display: none;
     }
 
     /* Fit the first-page title and caption to a small screen without clipping. */
