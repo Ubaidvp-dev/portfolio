@@ -28,6 +28,7 @@ body{
     top: 0;
     backdrop-filter: blur(20px);
     z-index: 999;
+    height: 80px;
 }
 .name-logo{
     width: 60px;
@@ -51,7 +52,7 @@ body{
 }
 .first-page{
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 80px);
     display: flex;
     align-items: center;
     justify-content: center;
